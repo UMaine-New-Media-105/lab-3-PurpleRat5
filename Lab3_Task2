@@ -5,8 +5,12 @@ function setup() {
 //Draw Function
 function draw() {
   background(220, 130, 130);
+  DrawRobot();  
+}
   
-//Conditionals for colors
+//Draw Robot Function
+function DrawRobot(){
+  //Conditionals for colors
   if(mouseY < 100){
     fill("lightblue");
   }
