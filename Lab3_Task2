@@ -1,0 +1,31 @@
+//Setup Function
+function setup() {
+  createCanvas(400, 400);
+}
+//Draw Function
+function draw() {
+  background(220, 130, 130);
+  
+//Conditionals for colors
+  if(mouseY < 100){
+    fill("lightblue");
+  }
+  else if(mouseY >= 100 && mouseY <= 200){
+    fill("coral");
+  }
+  else if(mouseY > 200 && mouseY <=300){
+    fill("lime");
+  }
+  else{
+    fill("purple");
+  }
+  
+  //eyes
+  ellipse(50, 50, 50);
+  ellipse(100, 50, 50);
+  ellipse(50, 50, 10);
+  ellipse(100, 50, 10);
+  //face
+  rect(40, 90, 80, 20);
+  rect(40, 100, 80, 2);
+}
