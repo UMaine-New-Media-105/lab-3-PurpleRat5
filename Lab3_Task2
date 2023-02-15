@@ -5,6 +5,7 @@ function setup() {
 //Draw Function
 function draw() {
   background(220, 130, 130);
+  //Draw one of our Robots
   DrawRobot();  
 }
   
